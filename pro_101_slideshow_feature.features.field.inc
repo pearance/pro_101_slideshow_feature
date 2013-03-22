@@ -257,9 +257,6 @@ function pro_101_slideshow_feature_field_default_fields() {
         0 => array(
           'title' => 'More',
           'url' => '/',
-          'attributes' => array(
-            'title' => '',
-          ),
         ),
       ),
       'deleted' => '0',
@@ -289,7 +286,7 @@ function pro_101_slideshow_feature_field_default_fields() {
           'url_cutoff' => '80',
         ),
         'enable_tokens' => 1,
-        'title' => 'none',
+        'title' => 'optional',
         'title_maxlength' => '128',
         'title_value' => '',
         'url' => 0,
