@@ -182,8 +182,7 @@ function pro_101_slideshow_feature_views_default_views() {
   $handler->display->display_options['fields']['nothing']['field'] = 'nothing';
   $handler->display->display_options['fields']['nothing']['ui_name'] = 'Output';
   $handler->display->display_options['fields']['nothing']['label'] = '';
-  $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div id="transparent"></div>
-<div id="slide-content">
+  $handler->display->display_options['fields']['nothing']['alter']['text'] = '<div id="slide-content">
 <h2>[title]</h2>
 [body]
 <span class="button">[field_url]</span>
